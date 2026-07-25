@@ -24,9 +24,9 @@ RecRoom-2023-Build\
 │   │       game.cer\
 │   │\
 │   ├───Launcher\
-│   │       Settings.json\
-│   │       Settings64.json\
-│   │       SplashScreen.png\
+│   │       Settings.json (It is the configuration file EAC's Launcher)\
+│   │       Settings64.json (It is the configuration file EAC's Launcher)\
+│   │       SplashScreen.png (It it the RecRoom Splash Screen image on the EAC launcher)\
 │   │\
 │   ├───Licenses\
 │   │       Apache-2.0.txt\
