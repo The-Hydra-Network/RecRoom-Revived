@@ -1,2 +1,2 @@
-# Rec-Room-Revived
+# RecRoom-Revived
 This is another revival of RecRoom
