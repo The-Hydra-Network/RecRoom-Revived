@@ -7883,4 +7883,4 @@ RecRoom-2023-Build\
     │\
     └───UnitySubsystems\
         └───XRSDKOpenVR\
-                UnitySubsystemsManifest.json\
+                UnitySubsystemsManifest.json
