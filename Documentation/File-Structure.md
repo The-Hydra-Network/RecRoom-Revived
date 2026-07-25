@@ -1,60 +1,60 @@
-RecRoom-2023-Build
-│   baselib.dll
-│   GameAssembly.dll
-│   installscript.vdf
-│   NOTICE.txt (It seems to be just for all the licenses for software which RecRoom is bundled with)
-│   RecRoom.exe
-│   RecRoomLog.bat (This takes you to the directory where recrooms logs are)
-│   Recroom_Release.exe
-│   steam_appid.txt (It is just the steam id which i think the steam api uses for validity)
-│   UnityCrashHandler64.exe
-│   UnityPlayer.dll
-│
-├───.DepotDownloader
-│       471711_9010071090979861071.manifest
-│       471711_9010071090979861071.manifest.sha
-│
-├───EasyAntiCheat
-│   │   EasyAntiCheat_Setup.exe
-│   │   EasyAntiCheat_x64.dll
-│   │   EasyAntiCheat_x86.dll
-│   │
-│   ├───Certificates
-│   │       game.bin
-│   │       game.cer
-│   │
-│   ├───Launcher
-│   │       Settings.json
-│   │       Settings64.json
-│   │       SplashScreen.png
-│   │
-│   ├───Licenses
-│   │       Apache-2.0.txt
-│   │       CCO-1.0.txt
-│   │       LGPL-2.1.txt
-│   │       Licenses.txt
-│   │       MIT.txt
-│   │
-│   └───Localization
-│           ar_sa.cfg
-│           cs_cz.cfg
-│           de_de.cfg
-│           en_us.cfg
-│           es_ar.cfg
-│           es_es.cfg
-│           fr_fr.cfg
-│           it_it.cfg
-│           ja_ja.cfg
-│           ko_kr.cfg
-│           nl_nl.cfg
-│           pl_pl.cfg
-│           pt_br.cfg
-│           ru_ru.cfg
-│           th_th.cfg
-│           tr_tr.cfg
-│           zh_cn.cfg
-│           zh_tw.cfg
-│
+RecRoom-2023-Build\
+│   baselib.dll\
+│   GameAssembly.dll\
+│   installscript.vdf\
+│   NOTICE.txt (It seems to be just for all the licenses for software which RecRoom is bundled with)\
+│   RecRoom.exe\
+│   RecRoomLog.bat (This takes you to the directory where recrooms logs are)\
+│   Recroom_Release.exe\
+│   steam_appid.txt (It is just the steam id which i think the steam api uses for validity)\
+│   UnityCrashHandler64.exe\
+│   UnityPlayer.dll\
+│\
+├───.DepotDownloader\
+│       471711_9010071090979861071.manifest\
+│       471711_9010071090979861071.manifest.sha\
+│\
+├───EasyAntiCheat\
+│   │   EasyAntiCheat_Setup.exe\
+│   │   EasyAntiCheat_x64.dll\
+│   │   EasyAntiCheat_x86.dll\
+│   │\
+│   ├───Certificates\
+│   │       game.bin\
+│   │       game.cer\
+│   │\
+│   ├───Launcher\
+│   │       Settings.json\
+│   │       Settings64.json\
+│   │       SplashScreen.png\
+│   │\
+│   ├───Licenses\
+│   │       Apache-2.0.txt\
+│   │       CCO-1.0.txt\
+│   │       LGPL-2.1.txt\
+│   │       Licenses.txt\
+│   │       MIT.txt\
+│   │\
+│   └───Localization\
+│           ar_sa.cfg\
+│           cs_cz.cfg\
+│           de_de.cfg\
+│           en_us.cfg\
+│           es_ar.cfg\
+│           es_es.cfg\
+│           fr_fr.cfg\
+│           it_it.cfg\
+│           ja_ja.cfg\
+│           ko_kr.cfg\
+│           nl_nl.cfg\
+│           pl_pl.cfg\
+│           pt_br.cfg\
+│           ru_ru.cfg\
+│           th_th.cfg\
+│           tr_tr.cfg\
+│           zh_cn.cfg\
+│           zh_tw.cfg\
+│\
 └───RecRoom_Data
     │   app.info
     │   boot.config
@@ -7817,70 +7817,70 @@ RecRoom-2023-Build
     │   │           fed89d0bf4450f87c49d2cb84b96a6a6.bundle
     │   │           fee4bb35eeb18a9f809e93c54cec2d0d.bundle
     │   │           fee56122d69aa7d82ecff96ce946ff92.bundle
-    │   │           fee88394c07e335f8da785b6a98f8dbe.bundle
-    │   │           fee88cceb15214c0d4e1e2ed18f884c7.bundle
-    │   │           fef5a9bbc24b2b8d7c3c311c204ecb83.bundle
-    │   │           ff001f27a5273bcc24ff9a355bab62b1.bundle
-    │   │           ff03396a2d0f79aca45bd1464da88885.bundle
-    │   │           ff041b7786dffa7b5d25d7e42e622f78.bundle
-    │   │           ff07dc3318dc4850ef70d18d68270196.bundle
-    │   │           ff19f10a46c2f51afd187f6ce7501183.bundle
-    │   │           ff259141555bd7e41b5a72943ae8a0f1.bundle
-    │   │           ff280174a638c3266d943073b6803199.bundle
-    │   │           ff532e32cd7583816ee213f3a47d2095.bundle
-    │   │           ff545cc3d55e19e8c595317fee01ef0f.bundle
-    │   │           ff565e5153bb130382f57931f8d4a4b7.bundle
-    │   │           ff664bc4d84cd5357263e079cdae6a1d.bundle
-    │   │           ff6c2540b42a7bb98e98c6d84f027dcf.bundle
-    │   │           ff6e00362db77a969b4a79629359930e.bundle
-    │   │           ff71d97d7d9fbdba182e248d20924259.bundle
-    │   │           ff733c153c46499af8108a068da9d1c5.bundle
-    │   │           ff803a952090a1e398d537cbd1a47afa.bundle
-    │   │           ff8a965e0acef260b91fe7ac29c37c96.bundle
-    │   │           ff93e74f459c7cbb7e530f0c3e441eca.bundle
-    │   │           ff990a609241dc5dcef39012602225c5.bundle
-    │   │           ff9ff17abec1dec6c63b8a3533c030c2.bundle
-    │   │           ffb36836024e62e9a97a979ec0656a39.bundle
-    │   │           ffb548d985b0833995c75c363762a160.bundle
-    │   │           ffbab3af5c8d449f2052a728ddb66121.bundle
-    │   │           ffc46ab6b6d41735c27992a30b5c165a.bundle
-    │   │           ffcf7daeaccdfba0a9073465eca962ee.bundle
-    │   │           ffd0608ecefb3af6f30773bc401b6431.bundle
-    │   │           ffd8ddacd45092e6c04ddf6948a92935.bundle
-    │   │           ffde963d6910415df28239673f5975d5.bundle
-    │   │           ffe12abc2c622710a5b2a202b4ff55c9.bundle
-    │   │           ffe6a0da997cfc716ad0933f7cdd24ec.bundle
-    │   │           ffe79a048c5412119c0a759faa927b31.bundle
-    │   │
-    │   ├───Packaging
-    │   │       Config.txt
-    │   │
-    │   ├───Paintball
-    │   │   │   hairy_teleport.mp4
-    │   │   │
-    │   │   └───DriveIn
-    │   │           Paintball_Drive_In_Classic_Movies_Full.mp4
-    │   │
-    │   ├───SteamVR
-    │   │       actions.json
-    │   │       bindings_holographic_controller.json
-    │   │       bindings_knuckles.json
-    │   │       bindings_oculus_touch.json
-    │   │       bindings_vive_controller.json
-    │   │       bindings_vive_cosmos_controller.json
-    │   │       binding_holographic_hmd.json
-    │   │       binding_index_hmd.json
-    │   │       binding_rift.json
-    │   │       binding_vive.json
-    │   │       binding_vive_cosmos.json
-    │   │       binding_vive_pro.json
-    │   │       binding_vive_tracker_camera.json
-    │   │       OpenVRSettings.asset
-    │   │
-    │   └───Videos
-    │           HYPERSPACE jump_MP4.mp4
-    │           jumbodome approach_MP4.mp4
-    │
-    └───UnitySubsystems
-        └───XRSDKOpenVR
-                UnitySubsystemsManifest.json
+    │   │           fee88394c07e335f8da785b6a98f8dbe.bundle\
+    │   │           fee88cceb15214c0d4e1e2ed18f884c7.bundle\
+    │   │           fef5a9bbc24b2b8d7c3c311c204ecb83.bundle\
+    │   │           ff001f27a5273bcc24ff9a355bab62b1.bundle\
+    │   │           ff03396a2d0f79aca45bd1464da88885.bundle\
+    │   │           ff041b7786dffa7b5d25d7e42e622f78.bundle\
+    │   │           ff07dc3318dc4850ef70d18d68270196.bundle\
+    │   │           ff19f10a46c2f51afd187f6ce7501183.bundle\
+    │   │           ff259141555bd7e41b5a72943ae8a0f1.bundle\
+    │   │           ff280174a638c3266d943073b6803199.bundle\
+    │   │           ff532e32cd7583816ee213f3a47d2095.bundle\
+    │   │           ff545cc3d55e19e8c595317fee01ef0f.bundle\
+    │   │           ff565e5153bb130382f57931f8d4a4b7.bundle\
+    │   │           ff664bc4d84cd5357263e079cdae6a1d.bundle\
+    │   │           ff6c2540b42a7bb98e98c6d84f027dcf.bundle\
+    │   │           ff6e00362db77a969b4a79629359930e.bundle\
+    │   │           ff71d97d7d9fbdba182e248d20924259.bundle\
+    │   │           ff733c153c46499af8108a068da9d1c5.bundle\
+    │   │           ff803a952090a1e398d537cbd1a47afa.bundle\
+    │   │           ff8a965e0acef260b91fe7ac29c37c96.bundle\
+    │   │           ff93e74f459c7cbb7e530f0c3e441eca.bundle\
+    │   │           ff990a609241dc5dcef39012602225c5.bundle\
+    │   │           ff9ff17abec1dec6c63b8a3533c030c2.bundle\
+    │   │           ffb36836024e62e9a97a979ec0656a39.bundle\
+    │   │           ffb548d985b0833995c75c363762a160.bundle\
+    │   │           ffbab3af5c8d449f2052a728ddb66121.bundle\
+    │   │           ffc46ab6b6d41735c27992a30b5c165a.bundle\
+    │   │           ffcf7daeaccdfba0a9073465eca962ee.bundle\
+    │   │           ffd0608ecefb3af6f30773bc401b6431.bundle\
+    │   │           ffd8ddacd45092e6c04ddf6948a92935.bundle\
+    │   │           ffde963d6910415df28239673f5975d5.bundle\
+    │   │           ffe12abc2c622710a5b2a202b4ff55c9.bundle\
+    │   │           ffe6a0da997cfc716ad0933f7cdd24ec.bundle\
+    │   │           ffe79a048c5412119c0a759faa927b31.bundle\
+    │   │\
+    │   ├───Packaging\
+    │   │       Config.txt\
+    │   │\
+    │   ├───Paintball\
+    │   │   │   hairy_teleport.mp4\
+    │   │   │\
+    │   │   └───DriveIn\
+    │   │           Paintball_Drive_In_Classic_Movies_Full.mp4\
+    │   │\
+    │   ├───SteamVR\
+    │   │       actions.json\
+    │   │       bindings_holographic_controller.json\
+    │   │       bindings_knuckles.json\
+    │   │       bindings_oculus_touch.json\
+    │   │       bindings_vive_controller.json\
+    │   │       bindings_vive_cosmos_controller.json\
+    │   │       binding_holographic_hmd.json\
+    │   │       binding_index_hmd.json\
+    │   │       binding_rift.json\
+    │   │       binding_vive.json\
+    │   │       binding_vive_cosmos.json\
+    │   │       binding_vive_pro.json\
+    │   │       binding_vive_tracker_camera.json\
+    │   │       OpenVRSettings.asset\
+    │   │\
+    │   └───Videos\
+    │           HYPERSPACE jump_MP4.mp4\
+    │           jumbodome approach_MP4.mp4\
+    │\
+    └───UnitySubsystems\
+        └───XRSDKOpenVR\
+                UnitySubsystemsManifest.json\
