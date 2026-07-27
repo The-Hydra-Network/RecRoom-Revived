@@ -1,7 +1,7 @@
 # RecRoom-Revived
 This is another revival of RecRoom\
 \
-# RecRoom-Revived Status\
+# RecRoom-Revived Status
 \
 DONE:\
 [x] DNS redirect\
