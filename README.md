@@ -1,8 +1,8 @@
 # RecRoom-Revived
 This is another revival of RecRoom\
-\
+
 # RecRoom-Revived Status
-\
+
 DONE:\
 [x] DNS redirect\
 [x] HTTPS SNI proxy\
