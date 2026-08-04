@@ -1,0 +1,29 @@
+{
+    "redirect": {
+
+        "auth.rec.net": "auth",
+        "accounts.rec.net": "accounts",
+        "api.rec.net": "api",
+        "apim.rec.net": "apim",
+
+        "rooms.rec.net": "rooms",
+        "match.rec.net": "match",
+        "ns.rec.net": "ns",
+
+        "config.uca.cloud.unity3d.com": "unity",
+        "cdp.cloud.unity3d.com": "unity",
+        "perf-events.cloud.unity3d.com": "unity",
+        "remote-config-proxy-prd.uca.cloud.unity3d.com": "unity",
+
+        "cdn.rec.net": "cdn",
+        "img.rec.net": "images",
+        "images.rec.net": "images",
+        "storage.rec.net": "storage",
+        "data.rec.net": "data",
+        "static.rec.net": "static",
+        "files.rec.net": "files",
+        "avatars.rec.net": "avatars",
+
+        "www.google.com": "google"
+    }
+}

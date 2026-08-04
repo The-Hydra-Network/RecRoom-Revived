@@ -1,0 +1,14 @@
+[
+  {
+    "userId": "local-user-001",
+    "username": "Player",
+    "displayName": "Player",
+    "passwordHash": "",
+    "status": "active",
+    "level": 50,
+    "profile": {
+      "avatarId": "default"
+    },
+    "sessions": []
+  }
+]

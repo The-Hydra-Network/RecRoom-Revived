@@ -1,0 +1,26 @@
+{
+  "ip": "127.0.0.1",
+  "port": 443,
+  "redirect": [
+    "auth.rec.net",
+    "accounts.rec.net",
+    "api.rec.net",
+    "apim.rec.net",
+    "rooms.rec.net",
+    "match.rec.net",
+    "ns.rec.net",
+
+    "config.uca.cloud.unity3d.com",
+    "cdp.cloud.unity3d.com",
+    "perf-events.cloud.unity3d.com",
+
+    "cdn.rec.net",
+    "img.rec.net",
+    "storage.rec.net",
+    "data.rec.net",
+
+    "remote-config-proxy-prd.uca.cloud.unity3d.com",
+
+    "www.google.com"
+  ]
+}
