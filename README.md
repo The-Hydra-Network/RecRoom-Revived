@@ -1,5 +1,5 @@
 # RecRoom-Revived
-This is another revival of RecRoom\
+This is another revival of RecRoom
 
 # RecRoom-Revived Status
 
