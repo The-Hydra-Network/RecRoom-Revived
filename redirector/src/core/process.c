@@ -5,6 +5,46 @@
 
 
 
+//
+// version.dll gets loaded by every process launched from the game folder -- RecRoom.exe itself and
+// UnityCrashHandler64.exe, which RecRoom spawns from the same directory. Only the game is worth
+// hooking (and worth a console window: two AllocConsole calls = two debug windows on every launch).
+//
+BOOL IsGameProcess()
+{
+    char path[MAX_PATH];
+
+    if(
+        !GetModuleFileNameA(
+            NULL,
+            path,
+            sizeof(path)
+        )
+    )
+    {
+        return FALSE;
+    }
+
+
+    char *slash = strrchr(
+        path,
+        '\\'
+    );
+
+
+    const char *exe =
+        slash ? slash + 1 : path;
+
+
+    return _stricmp(
+        exe,
+        "RecRoom.exe"
+    ) == 0;
+}
+
+
+
+
 void LogProcessInfo()
 {
     char path[MAX_PATH];

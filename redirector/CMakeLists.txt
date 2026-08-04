@@ -10,8 +10,8 @@ if(NOT CMAKE_SIZEOF_VOID_P EQUAL 8)
     message(FATAL_ERROR "Must build 64-bit. Import the amd64 VC env (vcvarsall.bat amd64) before cmake.")
 endif()
 
-# Where to deploy the built proxy. Point at your Rec Room install root; the deploy step below
-# copies version.dll there and materializes version_orig.dll (a copy of the system version.dll).
+# Where to deploy the built proxy. Point at your Rec Room install root; the deploy step below copies
+# version.dll there. That single file is the whole payload -- see the note above the deploy step.
 set(GAME_DIR "" CACHE PATH "Rec Room install root to deploy version.dll into")
 
 
@@ -20,7 +20,7 @@ add_library(redirector SHARED
     src/dllmain.c
 
 
-    # Proxy loader (exports forwarded to version_orig.dll; DllMain starts the hook thread)
+    # Proxy loader (exports wrap the real system version.dll; DllMain starts the hook thread)
     src/proxy/version_proxy.c
 
 
