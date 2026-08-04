@@ -2,6 +2,8 @@
 
 #include "common.h"
 
+BOOL IsGameProcess(void);
+
 void LogProcessInfo(void);
 
 void DumpLoadedModules(void);

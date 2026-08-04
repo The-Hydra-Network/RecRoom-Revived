@@ -215,6 +215,17 @@ DWORD WINAPI HookThread(
     LPVOID param
 )
 {
+    //
+    // Bail before AllocConsole/InitLogger in non-game processes. RecRoom.exe spawns
+    // UnityCrashHandler64.exe out of the same folder, so our version.dll loads there too; without
+    // this check every launch opened two debug consoles and left the crash handler spinning in
+    // WaitForUnity for a minute. Nothing here belongs in that process anyway.
+    //
+
+    if(!IsGameProcess())
+        return 0;
+
+
     InitConsole();
 
     InitLogger();
