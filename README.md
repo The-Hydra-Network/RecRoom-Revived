@@ -8,9 +8,7 @@ DONE:\
 [x] HTTPS SNI proxy\
 [x] Unity config stub\
 [x] Unity analytics stub\
-\
-BLOCKED:\
-[ ] ns.rec.net TLS validation\
+[x] ns.rec.net TLS validation\
 \
 NOT STARTED:\
 [ ] Auth service\
